@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="question" style="border-left: 8px solid #c2c2c2; padding: 5px">
+    <p><%= @question %></p>
+    <p><i> -You </i></p>
+  </div>
+  <div class="answer" style="border-left: 8px solid #c2c2c2; background-color: #fffdf1; padding: 5px; margin-top: 25px;">
+    <p><strong><%= @answer %></strong></p>
+    <p><i> -Your coach </i></p>
+  </div>
+  <div class="back-home" style="margin-top: 30px">
+    <%= link_to 'Ask a new question', ask_path %>
+  </div>
+</div>
